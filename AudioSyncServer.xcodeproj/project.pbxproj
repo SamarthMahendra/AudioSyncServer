@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D0EC51192CDFE737001BBF54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0EC50FF2CDFE735001BBF54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0EC51062CDFE735001BBF54;
+			remoteInfo = AudioSyncServer;
+		};
+		D0EC51232CDFE737001BBF54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0EC50FF2CDFE735001BBF54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0EC51062CDFE735001BBF54;
+			remoteInfo = AudioSyncServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0EC51072CDFE735001BBF54 /* AudioSyncServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioSyncServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EC51182CDFE737001BBF54 /* AudioSyncServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioSyncServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0EC51222CDFE737001BBF54 /* AudioSyncServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioSyncServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D0EC51092CDFE735001BBF54 /* AudioSyncServer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AudioSyncServer;
+			sourceTree = "<group>";
+		};
+		D0EC511B2CDFE737001BBF54 /* AudioSyncServerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AudioSyncServerTests;
+			sourceTree = "<group>";
+		};
+		D0EC51252CDFE737001BBF54 /* AudioSyncServerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AudioSyncServerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0EC51042CDFE735001BBF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EC51152CDFE737001BBF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EC511F2CDFE737001BBF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0EC50FE2CDFE735001BBF54 = {
+			isa = PBXGroup;
+			children = (
+				D0EC51092CDFE735001BBF54 /* AudioSyncServer */,
+				D0EC511B2CDFE737001BBF54 /* AudioSyncServerTests */,
+				D0EC51252CDFE737001BBF54 /* AudioSyncServerUITests */,
+				D0EC51082CDFE735001BBF54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0EC51082CDFE735001BBF54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0EC51072CDFE735001BBF54 /* AudioSyncServer.app */,
+				D0EC51182CDFE737001BBF54 /* AudioSyncServerTests.xctest */,
+				D0EC51222CDFE737001BBF54 /* AudioSyncServerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0EC51062CDFE735001BBF54 /* AudioSyncServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0EC512C2CDFE737001BBF54 /* Build configuration list for PBXNativeTarget "AudioSyncServer" */;
+			buildPhases = (
+				D0EC51032CDFE735001BBF54 /* Sources */,
+				D0EC51042CDFE735001BBF54 /* Frameworks */,
+				D0EC51052CDFE735001BBF54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D0EC51092CDFE735001BBF54 /* AudioSyncServer */,
+			);
+			name = AudioSyncServer;
+			packageProductDependencies = (
+			);
+			productName = AudioSyncServer;
+			productReference = D0EC51072CDFE735001BBF54 /* AudioSyncServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0EC51172CDFE737001BBF54 /* AudioSyncServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0EC512F2CDFE737001BBF54 /* Build configuration list for PBXNativeTarget "AudioSyncServerTests" */;
+			buildPhases = (
+				D0EC51142CDFE737001BBF54 /* Sources */,
+				D0EC51152CDFE737001BBF54 /* Frameworks */,
+				D0EC51162CDFE737001BBF54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0EC511A2CDFE737001BBF54 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D0EC511B2CDFE737001BBF54 /* AudioSyncServerTests */,
+			);
+			name = AudioSyncServerTests;
+			packageProductDependencies = (
+			);
+			productName = AudioSyncServerTests;
+			productReference = D0EC51182CDFE737001BBF54 /* AudioSyncServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0EC51212CDFE737001BBF54 /* AudioSyncServerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0EC51322CDFE737001BBF54 /* Build configuration list for PBXNativeTarget "AudioSyncServerUITests" */;
+			buildPhases = (
+				D0EC511E2CDFE737001BBF54 /* Sources */,
+				D0EC511F2CDFE737001BBF54 /* Frameworks */,
+				D0EC51202CDFE737001BBF54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0EC51242CDFE737001BBF54 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D0EC51252CDFE737001BBF54 /* AudioSyncServerUITests */,
+			);
+			name = AudioSyncServerUITests;
+			packageProductDependencies = (
+			);
+			productName = AudioSyncServerUITests;
+			productReference = D0EC51222CDFE737001BBF54 /* AudioSyncServerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0EC50FF2CDFE735001BBF54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					D0EC51062CDFE735001BBF54 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					D0EC51172CDFE737001BBF54 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D0EC51062CDFE735001BBF54;
+					};
+					D0EC51212CDFE737001BBF54 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D0EC51062CDFE735001BBF54;
+					};
+				};
+			};
+			buildConfigurationList = D0EC51022CDFE735001BBF54 /* Build configuration list for PBXProject "AudioSyncServer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0EC50FE2CDFE735001BBF54;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D0EC51082CDFE735001BBF54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0EC51062CDFE735001BBF54 /* AudioSyncServer */,
+				D0EC51172CDFE737001BBF54 /* AudioSyncServerTests */,
+				D0EC51212CDFE737001BBF54 /* AudioSyncServerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0EC51052CDFE735001BBF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EC51162CDFE737001BBF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EC51202CDFE737001BBF54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0EC51032CDFE735001BBF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EC51142CDFE737001BBF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EC511E2CDFE737001BBF54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0EC511A2CDFE737001BBF54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0EC51062CDFE735001BBF54 /* AudioSyncServer */;
+			targetProxy = D0EC51192CDFE737001BBF54 /* PBXContainerItemProxy */;
+		};
+		D0EC51242CDFE737001BBF54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0EC51062CDFE735001BBF54 /* AudioSyncServer */;
+			targetProxy = D0EC51232CDFE737001BBF54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0EC512A2CDFE737001BBF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0EC512B2CDFE737001BBF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D0EC512D2CDFE737001BBF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AudioSyncServer/AudioSyncServer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AudioSyncServer/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UZKYFK698;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AudioSyncServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D0EC512E2CDFE737001BBF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AudioSyncServer/AudioSyncServer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AudioSyncServer/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UZKYFK698;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AudioSyncServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D0EC51302CDFE737001BBF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UZKYFK698;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AudioSyncServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioSyncServer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudioSyncServer";
+			};
+			name = Debug;
+		};
+		D0EC51312CDFE737001BBF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UZKYFK698;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AudioSyncServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioSyncServer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudioSyncServer";
+			};
+			name = Release;
+		};
+		D0EC51332CDFE737001BBF54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UZKYFK698;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AudioSyncServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AudioSyncServer;
+			};
+			name = Debug;
+		};
+		D0EC51342CDFE737001BBF54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UZKYFK698;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.AudioSyncServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AudioSyncServer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0EC51022CDFE735001BBF54 /* Build configuration list for PBXProject "AudioSyncServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EC512A2CDFE737001BBF54 /* Debug */,
+				D0EC512B2CDFE737001BBF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0EC512C2CDFE737001BBF54 /* Build configuration list for PBXNativeTarget "AudioSyncServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EC512D2CDFE737001BBF54 /* Debug */,
+				D0EC512E2CDFE737001BBF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0EC512F2CDFE737001BBF54 /* Build configuration list for PBXNativeTarget "AudioSyncServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EC51302CDFE737001BBF54 /* Debug */,
+				D0EC51312CDFE737001BBF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0EC51322CDFE737001BBF54 /* Build configuration list for PBXNativeTarget "AudioSyncServerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0EC51332CDFE737001BBF54 /* Debug */,
+				D0EC51342CDFE737001BBF54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0EC50FF2CDFE735001BBF54 /* Project object */;
+}
